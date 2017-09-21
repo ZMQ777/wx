@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class='title-search'>
 
-    <view class="page__bd">
+    <view class="">
         <view class="weui-search-bar">
             <view class="weui-search-bar__form">
                 <view class="weui-search-bar__box">
@@ -20,15 +20,12 @@
 <view class='banner-div'>
   <image src='../../images/banner.jpg'></image>
 </view>
-
-  <view class="page__bd">
-          <view class="">
+  <view class="bar_nav clearfix">
               <block wx:for="{{grids}}" wx:key="*this">
                   <navigator url="{{item.url}}" class="bar_div" hover-class="">
-                      <image class="img" src="{{item.src}}" /> 
+                      <image class="img" src="{{item.src}}" mode='aspectFit'/> 
                   </navigator>
               </block>
-          </view>
   </view>
 
   <view class='footer-div'>
