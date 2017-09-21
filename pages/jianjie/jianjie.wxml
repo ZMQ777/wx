@@ -1,0 +1,7 @@
+<!--pages/jianjie/jianjie.wxml-->
+<view class='banner'>
+  <image mode="widthFix" src='/static/img/banner-12year.jpg'></image>
+</view>
+
+
+
