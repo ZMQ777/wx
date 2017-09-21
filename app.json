@@ -1,8 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    
     "pages/views/index/index",
+
+    
     "example/index",
     "example/button/button",
     "example/list/list",
@@ -41,7 +42,7 @@
       {
         "pagePath": "pages/index/index",
         "text": "主页",
-        "iconPath":"images/footer_1.jpg",
+        "iconPath":"images/home.png",
         "selectedIconPath":"images/footer_1.jpg"
       },
       {
@@ -70,5 +71,5 @@
     "uploadFile": 10000,
     "downloadFile": 10000
   },
-  "debug": false
+  "debug": true
 }
