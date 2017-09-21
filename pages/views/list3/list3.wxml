@@ -1,0 +1,2 @@
+<!--pages/views/list3/list3.wxml-->
+<view>{{t}}</view>

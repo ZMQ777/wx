@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/index/index",
+    
+    "pages/views/index/index",
+    "example/index",
+    "example/button/button",
+    "example/list/list",
+    "example/input/input",
+    "example/slider/slider",
+    "example/uploader/uploader",
+    "example/article/article",
+    "example/badge/badge",
+    "example/flex/flex",
+    "example/footer/footer",
+    "example/gallery/gallery",
+    "example/grid/grid",
+    "example/icons/icons",
+    "example/loadmore/loadmore",
+    "example/panel/panel",
+    "example/preview/preview",
+    "example/progress/progress",
+    "example/actionsheet/actionsheet",
+    "example/dialog/dialog",
+    "example/msg/msg",
+    "example/msg/msg_success",
+    "example/msg/msg_fail",
+    "example/picker/picker",
+    "example/toast/toast",
+    "example/navbar/navbar",
+    "example/tabbar/tabbar",
+    "example/searchbar/searchbar",
+    "pages/logs/logs",
+    "pages/views/list1/list1",
+    "pages/views/list2/list2",
+    "pages/views/mysomething/mysomething",
+    "pages/views/list3/list3"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath":"images/footer_1.jpg",
+        "selectedIconPath":"images/footer_1.jpg"
+      },
+      {
+        "pagePath": "pages/views/list2/list2",
+        "text": "客服",
+        "iconPath": "images/footer_2.jpg",
+        "selectedIconPath": "images/footer_2.jpg"
+      },
+      {
+        "pagePath": "pages/views/mysomething/mysomething",
+        "text": "订单",
+        "iconPath": "images/footer_3.jpg",
+        "selectedIconPath": "images/footer_3.jpg"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTextStyle": "",
+    "navigationBarTitleText": "武汉友好医院",
+    "navigationBarBackgroundColor": "rgb(255,171,10)",
+    "backgroundColor": "rgb(255,255,255)"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

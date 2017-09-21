@@ -1,0 +1,10 @@
+/* pages/views/mysomething/mysomething.wxss */
+.usermotto {
+  position: relative;
+  top: 50px;
+}
+.mysomething{
+  position: relative;
+  top: 100px;
+  /* margin-bottom: 80px; */
+}

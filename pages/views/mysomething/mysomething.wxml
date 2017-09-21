@@ -1,0 +1,26 @@
+<!--pages/views/mysomething/mysomething.wxml-->
+<view class="container">
+
+  <view>
+      <text class="c_title">我的个人简介</text>
+  </view>
+
+  <view>
+      <text>{{message}}</text>
+  </view>
+
+    <view class="usermotto">
+    <!-- <text class="user-motto" bindtap='bindmysothing'></text> -->
+      <navigator url="" hover-class="navigator-hover" open-type='navigate'>我的事迹</navigator>
+    </view>
+
+    <view class='mysomething'>
+        <image class="r" src="../../../images/maidou.jpg" mode="aspectFit"></image>
+    </view> 
+    <view class='mysomething'>
+        <image class="r" src="../../../images/maidou.jpg" mode="aspectFit"></image>
+    </view> 
+    <view class='mysomething'>
+        <image class="r" src="../../../images/maidou.jpg" mode="aspectFit"></image>
+    </view> 
+</view>
