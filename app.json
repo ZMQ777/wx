@@ -2,35 +2,6 @@
   "pages": [
     "pages/index/index",
     "pages/views/index/index",
-
-
-    "example/index",
-    "example/button/button",
-    "example/list/list",
-    "example/input/input",
-    "example/slider/slider",
-    "example/uploader/uploader",
-    "example/article/article",
-    "example/badge/badge",
-    "example/flex/flex",
-    "example/footer/footer",
-    "example/gallery/gallery",
-    "example/grid/grid",
-    "example/icons/icons",
-    "example/loadmore/loadmore",
-    "example/panel/panel",
-    "example/preview/preview",
-    "example/progress/progress",
-    "example/actionsheet/actionsheet",
-    "example/dialog/dialog",
-    "example/msg/msg",
-    "example/msg/msg_success",
-    "example/msg/msg_fail",
-    "example/picker/picker",
-    "example/toast/toast",
-    "example/navbar/navbar",
-    "example/tabbar/tabbar",
-    "example/searchbar/searchbar",
     "pages/logs/logs",
     "pages/views/list1/list1",
     "pages/views/list2/list2",
@@ -42,20 +13,20 @@
       {
         "pagePath": "pages/index/index",
         "text": "主页",
-        "iconPath":"images/footer_1.jpg",
-        "selectedIconPath":"images/footer_1.jpg"
+        "iconPath":"static/img/footer_1.jpg",
+        "selectedIconPath":"static/img/footer_1.jpg"
       },
       {
         "pagePath": "pages/views/list2/list2",
         "text": "客服",
-        "iconPath": "images/footer_2.jpg",
-        "selectedIconPath": "images/footer_2.jpg"
+        "iconPath": "static/img/footer_2.jpg",
+        "selectedIconPath": "static/img/footer_2.jpg"
       },
       {
         "pagePath": "pages/views/mysomething/mysomething",
         "text": "订单",
-        "iconPath": "images/footer_3.jpg",
-        "selectedIconPath": "images/footer_3.jpg"
+        "iconPath": "static/img/footer_3.jpg",
+        "selectedIconPath": "static/img/footer_3.jpg"
       }
     ]
   },

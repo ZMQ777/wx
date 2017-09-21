@@ -18,7 +18,7 @@
 </view>
 
 <view class='banner-div'>
-  <image src='../../images/banner.jpg'></image>
+  <image src='../../static/img/banner.jpg'></image>
 </view>
   <view class="bar_nav clearfix">
               <block wx:for="{{grids}}" wx:key="*this">
@@ -29,5 +29,5 @@
   </view>
 
   <view class='footer-div'>
-    <image src='../../images/footer.jpg'></image>
+    <image src='../../static/img/footer.jpg'></image>
   </view>
