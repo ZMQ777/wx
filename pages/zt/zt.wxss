@@ -29,14 +29,14 @@ width: 100%;
 }
 .money{
   padding: 15px 0 15px 0;
-  font-size: 0.5rem;
-  margin-left: 5px;
+  font-size: 0.8rem;
+  margin-left: 2px;
 }
 .parse{
-  font-size:0.8rem; 
+  font-size:0.85rem; 
 }
 .discount_price{
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   margin-left: 2px;
   text-decoration:line-through;
 }
