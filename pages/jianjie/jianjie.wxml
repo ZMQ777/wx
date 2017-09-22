@@ -1,7 +1,128 @@
-<!--pages/jianjie/jianjie.wxml-->
-<view class='banner'>
+<view class="banner">
   <image mode="widthFix" src='/static/img/banner-12year.jpg'></image>
 </view>
 
+<view class='main-title'>
+  <view class='top'></view>
+  友好大事件
+  <view class='bottom'></view>
+</view>
+
+<view class='timeline'>
+  <view class='timeline-item' wx:for="{{timelineData}}" wx:key="*this">
+    <view>{{item.year}}</view>
+    {{item.event}}
+  </view>
+</view>
+
+<view class='main-title'>
+  <view class='top'></view>
+  友好大专家
+  <view class='bottom'></view>
+</view>
+
+<view class='doctor switch'>
+  <view class='switch-tab'>
+    <view class=" {{currentDocTab==0 ? 'switch-tab-active' : ''}}" data-current="0" bindtap='swichDocTab'>
+      京粤老牌名医
+    </view>
+    <view class=" {{currentDocTab==1 ? 'switch-tab-active' : ''}}" data-current="1" bindtap='swichDocTab'>
+      友好实力专家
+    </view>
+  </view>
 
 
+  <view class="switch-item {{currentDocTab==0 ? 'switch-item-active' : ''}}">
+    <view>
+      <image src='/static/img/doc1.jpg' mode='widthFix'></image>
+      <text>擅长：各种复杂的腹式和阴式手术治疗妇科肿瘤。
+      </text>
+    </view>
+    <view>
+      <image src='/static/img/doc2.jpg' mode='widthFix'></image>
+      <text>擅长：妇产科的剖宫产术、附件及子宫切除术。
+      </text>
+    </view>
+  </view>
+  <view class="switch-item {{currentDocTab==1 ? 'switch-item-active' : ''}}">
+    <view>
+      <image src='/static/img/doc1.jpg' mode='widthFix'></image>
+      <text>擅长：各种复杂的腹式和阴式手术治疗妇科肿瘤。1
+      </text>
+    </view>
+    <view>
+      <image src='/static/img/doc1.jpg' mode='widthFix'></image>
+      <text>擅长：妇产科的剖宫产术、附件及子宫切除术。1
+      </text>
+    </view>
+  </view>
+
+</view>
+
+<view class='middle-banner'>
+  <image src='/static/img/jianjie-middle-banner.jpg' mode='widthFix'></image>
+</view>
+
+
+<view class='main-title'>
+  <view class='top'></view>
+  友好大技术
+  <view class='bottom'></view>
+</view>
+
+<view class='jishu switch'>
+  <view class='switch-tab'>
+    <view class=" {{currentJiShuTab==0 ? 'switch-tab-active' : ''}}" data-current="0" bindtap='swichJiShuTab'>
+      妇科技术
+    </view>
+    <view class=" {{currentJiShuTab==1 ? 'switch-tab-active' : ''}}" data-current="1" bindtap='swichJiShuTab'>
+      皮肤科技术
+    </view>
+
+    <view class=" {{currentJiShuTab==2 ? 'switch-tab-active' : ''}}" data-current="2" bindtap='swichJiShuTab'>
+      男科技术
+    </view>
+  </view>
+
+
+  <view class="switch-item {{currentJiShuTab==0 ? 'switch-item-active' : ''}}">
+    <image src='/static/img/jishu3.jpg' mode='widthFix'></image>
+    <view>
+      <view>· 新一代前列腺内场效消融介入排毒术</view>
+      <view>· 韩式包皮精雕整形术</view>
+      <view>· 六位一体分型疗法</view>
+      <view>· 美国CRS短波治疗系统 </view>
+    </view>
+  </view>
+  <view class="switch-item {{currentJiShuTab==1 ? 'switch-item-active' : ''}}">
+    <image src='/static/img/jishu3.jpg' mode='widthFix'></image>
+    <view>
+      <view>· 新一代前列腺内场效消融介入排毒术</view>
+      <view>· 韩式包皮精雕整形术</view>
+      <view>· 六位一体分型疗法</view>
+      <view>· 美国CRS短波治疗系统 </view>
+    </view>
+  </view>
+  <view class="switch-item {{currentJiShuTab==2 ? 'switch-item-active' : ''}}">
+    <image src='/static/img/jishu3.jpg' mode='widthFix'></image>
+    <view>
+      <view>· 新一代前列腺内场效消融介入排毒术</view>
+      <view>· 韩式包皮精雕整形术</view>
+      <view>· 六位一体分型疗法</view>
+      <view>· 美国CRS短波治疗系统 </view>
+    </view>
+  </view>
+</view>
+<view class='main-title'>
+  <view class='top'></view>
+  友好大公益
+  <view class='bottom'></view>
+</view>
+
+
+<view class='gongyi clearfix'>
+  <view wx:for="{{gongyi}}" wx:key="*this">
+    <image src='{{item.img}}' mode='widthFix'></image>
+    <text>{{item.text}}</text>
+  </view>
+</view>
