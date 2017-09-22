@@ -21,7 +21,7 @@
 </view>
 <view class="bar_nav clearfix">
   <block wx:for="{{grids}}" wx:key="*this">
-    <navigator url="{{item.url}}" class="bar_div" open-type="redirect">
+    <navigator url="{{item.url}}" class="bar_div">
       <image class="img" src="{{item.src}}" mode='' />
     </navigator>
   </block>
