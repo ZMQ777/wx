@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/zt/zt",
     "pages/jianjie/jianjie",
     "pages/views/index/index",
     "pages/logs/logs",
@@ -8,6 +9,7 @@
     "pages/views/list2/list2",
     "pages/views/mysomething/mysomething",
     "pages/views/list3/list3"
+
   ],
   "tabBar": {
     "color": "#999999",
@@ -45,5 +47,5 @@
     "uploadFile": 10000,
     "downloadFile": 10000
   },
-  "debug": true
+  "debug": false
 }

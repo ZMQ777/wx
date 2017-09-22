@@ -21,15 +21,15 @@ Page({
       , {
         label: '4',
         src: '/static/img/bar_four.jpg',
-        url: '../views/list3/list3?t=4'
+        url: '/pages/zt/zt?t=pifu'
       }, {
         label: '5',
         src: '/static/img/bar_five.jpg',
-        url: '../views/list3/list3?t=5'
+        url: '/pages/zt/zt?t=fuke'
       }, {
         label: '6',
         src: '/static/img/bar_six.jpg',
-        url: '../views/list3/list3?t=6'
+        url: '/pages/zt/zt?t=nanke'
       }
     ],
     motto: '你好',
@@ -51,7 +51,7 @@ Page({
     })
   },
   onLoad: function () {
-    console.log(this.data.grids)
+    // console.log(this.data.grids)
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

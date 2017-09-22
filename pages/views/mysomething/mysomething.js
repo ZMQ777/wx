@@ -1,18 +1,20 @@
 // pages/views/mysomething/mysomething.js
+var app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      message: 'Hello this is mysomething!'
+    isShow: true,
+    currentTab: 0,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+
   },
 
   /**
@@ -62,5 +64,16 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  swichNav: function (e) {
+    if (this.data.currentTab === e.target.dataset.current) {
+      return false;
+    } else {
+      var showMode = e.target.dataset.current == 0;
+      this.setData({
+        currentTab: e.target.dataset.current,
+        isShow: showMode
+      })
+    }
   }
 })

@@ -57,3 +57,40 @@ page{
   visibility: hidden;
   clear: both;
 }
+
+/*搜索框提示词样式*/
+.font-color{
+  color: #d97f0a;
+  font-size: 12px;
+}
+
+/*搜索框样式*/
+.title-search{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255,171,10);
+  margin-bottom: 0px;
+}
+.title-search .weui-search-bar{
+  background-color: rgb(255,171,10);
+  border-top:1rpx solid rgb(255,171,10);
+  border-bottom:1rpx solid rgb(255,171,10);
+}
+.weui-search-bar__cancel-btn{
+  color: white;
+}
+.weui-search-bar__label{
+  text-align: center;
+}
+.weui-icon-search{
+  position: relative;
+  left: 0;
+}
+.weui-search-bar__form{
+  background-color: rgba(255,255,255,0.7);
+  border-radius:2px;
+
+}
+.weui-search-bar__input{
+  color: #d97f0a;
+}
