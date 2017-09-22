@@ -126,3 +126,19 @@
     <text>{{item.text}}</text>
   </view>
 </view>
+
+
+<view class='bottom'>
+  <navigator url="/pages/index/index" open-type="switchTab" hover-class="none">
+    <image src='/static/icon/home-selected.png' mode='widthFix'></image>
+    首页
+  </navigator>
+  <navigator url="/pages/views/list2/list2" open-type="switchTab" hover-class="none">
+    <image src='/static/icon/customer-service.png' mode='widthFix'></image>
+    客服
+  </navigator>
+  <navigator url="/pages/views/mysomething/mysomething" open-type="switchTab" hover-class="none">
+    <image src='/static/icon/order-form.png' mode='widthFix'></image>
+    订单
+  </navigator>
+</view>

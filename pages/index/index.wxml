@@ -17,7 +17,7 @@
 </view>
 
 <view class='banner-div'>
-  <image mode='widthFix' src='../../static/img/banner.jpg'></image>
+  <image mode='widthFix' src='/static/img/banner.jpg'></image>
 </view>
 <view class="bar_nav clearfix">
   <block wx:for="{{grids}}" wx:key="*this">
