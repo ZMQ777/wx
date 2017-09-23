@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/detail/detail",
     "pages/zt/zt",
     "pages/jianjie/jianjie",
     "pages/views/index/index",
@@ -9,7 +10,6 @@
     "pages/views/list2/list2",
     "pages/views/mysomething/mysomething",
     "pages/views/list3/list3"
-
   ],
   "tabBar": {
     "color": "#999999",

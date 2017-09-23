@@ -1,0 +1,182 @@
+/* pages/detail/detail.wxss */
+
+.detail-banner image {
+  width: 100%;
+}
+
+.detail-banner {
+  height: 42vh;
+}
+
+.good-detail image {
+  width: 100%;
+}
+
+.good-info {
+  padding: 1rem 0.5rem 0;
+}
+
+.good-name {
+  color: #2a2a2a;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.good-new-price {
+  color: #ff890a;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding-left: 0.3rem;
+}
+
+.good-old-price {
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+  color: #8d8d8d;
+  text-decoration: line-through;
+}
+
+.yunfei {
+  color: #8d8d8d;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.8rem;
+  line-height: 2.4;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  margin-top: 0.5rem;
+}
+
+.good-detail view {
+  color: #8d8d8d;
+  font-size: 0.9rem;
+  padding: 0 0.8rem;
+  line-height: 2.4;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  margin-top: 0.6rem;
+}
+
+
+.good-detail image {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+/*===============
+    热门商品
+  ===============*/
+.hot-goods {
+  margin-bottom: 3rem;
+}
+
+.hot-goods .hot-goods-title {
+  color: #8d8d8d;
+  font-size: 1rem;
+  padding: 0 0.8rem;
+  line-height: 2.4;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.hot-goods swiper{
+  height: 58vh;
+}
+
+.hot-goods-swiper-item {
+  width: 100%;
+}
+
+.pifu_bar_div {
+  width: 46%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 2%;
+  margin-bottom: 10px;
+  border: 1px solid #f1ece7;
+}
+
+.pifu_bar_div .img {
+  width: 100%;
+}
+
+.buy {
+  width: 100%;
+  height: 100%;
+  background-color: #f1ece7;
+  margin-top: -8px;
+  position: relative;
+}
+
+.display_inline {
+  display: inline-block;
+  color: #535353;
+}
+
+.money {
+  padding: 15px 0 15px 0;
+  font-size: 0.5rem;
+  margin-left: 5px;
+}
+
+.parse {
+  font-size: 0.8rem;
+}
+
+.discount_price {
+  font-size: 0.5rem;
+  margin-left: 2px;
+  text-decoration: line-through;
+}
+
+.qg {
+  position: absolute;
+  right: 5px;
+  font-size: 0.8rem;
+  padding: 2px;
+  background-color: white;
+  box-sizing: border-box;
+  color: #ff890a;
+  top: 50%;
+  margin-top: -12px;
+}
+
+
+
+/*===============
+    底部购物车tab
+  ===============*/
+.bottom{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background: white;
+  border-top: 1px solid #f1ece7
+}
+
+.bottom navigator {
+  height: 2.4rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding: 2px 0;
+}
+.bottom navigator image{
+  width: 24px;
+}
+.bottom navigator:first-child {
+  max-width: 30%;
+}
+.bottom navigator:last-child {
+  background-color: #ff890a;
+  color: white;
+}

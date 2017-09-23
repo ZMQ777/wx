@@ -1,0 +1,60 @@
+<!--pages/detail/detail.wxml-->
+<swiper class='detail-banner' indicator-dots="true" autoplay="true" interval="5000" duration="1000" indicator-color="rgba(0, 0, 0, .3)" indicator-active-color="#FF890A" circular="true">
+  <block wx:for="{{goodsBanner}}">
+    <swiper-item>
+      <image src="{{item}}" mode='widthFix' />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='good-info'>
+  <view class='good-name'>{{goodsName}}</view>
+  <text class='good-new-price'>￥{{price}}</text>
+  <text class='good-old-price'>原价￥{{originalPrice}}</text>
+</view>
+
+<view class='yunfei'>
+  <text>运费:{{fee}}</text>
+  <text>剩余:{{amount}}</text>
+  <text>销量:{{sales}}</text>
+</view>
+
+<view class='good-detail'>
+  <view>商品详情</view>
+  <image src='{{goodsDetailUrl}}' mode='widthFix'></image>
+</view>
+
+<view class='hot-goods'>
+  <view class='hot-goods-title'>热门商品</view>
+  <swiper indicator-dots="true" autoplay="true" indicator-color="rgba(0, 0, 0, .3)" indicator-active-color="#FF890A" circular="true">
+    <block wx:for="{{hotGoods}}" wx:for-item="arrItem">
+      <swiper-item>
+        <view class="hot-goods-swiper-item clearfix">
+          <block wx:for="{{arrItem}}" wx:key="*this">
+            <navigator url="{{item.url}}" class="pifu_bar_div" hover-class="">
+              <image class="img" src="{{item.src}}" mode='widthFix' />
+              <view class='buy'>
+                <view class='display_inline money'>￥</view>
+                <view class='display_inline parse'>{{item.parse}}</view>
+                <view class='display_inline discount_price' wx:if="{{item.discount_price != ''}}">
+                  原价:{{item.discount_price}}
+                </view>
+                <view class='display_inline qg'>立即抢购</view>
+              </view>
+            </navigator>
+          </block>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class='bottom'>
+  <navigator url="/pages/index/index"  >
+    <image src='/static/icon/car.png' mode='widthFix'></image>
+  </navigator>
+
+  <navigator url="/pages/views/mysomething/mysomething"  >
+    立即购买
+  </navigator>
+</view>
