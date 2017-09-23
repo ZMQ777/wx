@@ -13,98 +13,98 @@ Page({
         {
           text: '',
           src: '/static/img/pifu_01.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '11.00',
           discount_price: ''
         },
         {
           text: '',
           src: '/static/img/pifu_02.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '11.00',
           discount_price: ''
         },
         {
           text: '',
           src: '/static/img/pifu_03.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '110',
           discount_price: '1000'
         },
         {
           text: '',
           src: '/static/img/pifu_04.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '300',
           discount_price: '3000'
         },
         {
           text: '',
           src: '/static/img/pifu_05.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '160',
           discount_price: '580'
         },
         {
           text: '',
           src: '/static/img/pifu_06.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '380',
           discount_price: '2080'
         },
         {
           text: '',
           src: '/static/img/pifu_07.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '360',
           discount_price: '3200'
         },
         {
           text: '',
           src: '/static/img/pifu_08.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '380',
           discount_price: '2080'
         },
         {
           text: '',
           src: '/static/img/pifu_09.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '11.00',
           discount_price: '30'
         },
         {
           text: '',
           src: '/static/img/pifu_10.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '25.00',
           discount_price: '60'
         },
         {
           text: '',
           src: '/static/img/pifu_11.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '11.00',
           discount_price: '30'
         },
         {
           text: '',
           src: '/static/img/pifu_12.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '240',
           discount_price: '480'
         },
         {
           text: '',
           src: '/static/img/pifu_13.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '280',
           discount_price: '3000'
         },
         {
           text: '',
           src: '/static/img/pifu_14.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '5.00',
           discount_price: ''
         }
@@ -113,7 +113,7 @@ Page({
         {
           text: '',
           src: '/static/img/fuke_01.jpg',
-          url: '',
+          url: '/pages/detail/detail',
           parse: '60',
           discount_price: '300'
         }, {
