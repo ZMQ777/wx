@@ -48,7 +48,7 @@
   margin-top: 0.5rem;
 }
 
-.good-detail view {
+.good-detail-title {
   color: #8d8d8d;
   font-size: 0.9rem;
   padding: 0 0.8rem;
@@ -59,9 +59,10 @@
 }
 
 
-.good-detail image {
-  padding: 10px;
+.good-detail-img {
+  padding: 0 10px;
   box-sizing: border-box;
+  font-size: 0;
 }
 
 
@@ -84,7 +85,7 @@
 }
 
 .hot-goods swiper{
-  height: 58vh;
+  height: 60vh;
 }
 
 .hot-goods-swiper-item {

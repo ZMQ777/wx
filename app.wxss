@@ -1,39 +1,42 @@
 @import 'static/style/weui.wxss';
 
-page{
-    /* background-color: #F8F8F8; */
-    background-color: ffffff;
-    font-size: 16px;
-    min-height: 100%;
-    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
-}
-.page__hd {
-    padding: 40px;
-}
-.page__bd {
-    padding-bottom: 40px;
-}
-.page__bd_spacing {
-    padding-left: 15px;
-    padding-right: 15px;
+page {
+  /* background-color: #F8F8F8; */
+  background-color: ffffff;
+  font-size: 16px;
+  min-height: 100%;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
 }
 
-.page__ft{
-    padding-bottom: 10px;
-    text-align: center;
+.page__hd {
+  padding: 40px;
+}
+
+.page__bd {
+  padding-bottom: 40px;
+}
+
+.page__bd_spacing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page__ft {
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .page__title {
-    text-align: left;
-    font-size: 20px;
-    font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .page__desc {
-    margin-top: 5px;
-    color: #888888;
-    text-align: left;
-    font-size: 14px;
+  margin-top: 5px;
+  color: #888;
+  text-align: left;
+  font-size: 14px;
 }
 
 .container {
@@ -44,12 +47,14 @@ page{
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
-::-webkit-scrollbar{
+}
+
+::-webkit-scrollbar {
   width: 0;
   height: 0;
   color: transparent;
 }
+
 .clearfix::after {
   content: "";
   display: block;
@@ -59,38 +64,79 @@ page{
 }
 
 /*搜索框提示词样式*/
-.font-color{
+
+.font-color {
   color: #d97f0a;
   font-size: 12px;
 }
 
 /*搜索框样式*/
-.title-search{
+
+.title-search {
   height: 100%;
   width: 100%;
-  background-color: rgb(255,171,10);
+  background-color: rgb(255, 171, 10);
   margin-bottom: 0px;
 }
-.title-search .weui-search-bar{
-  background-color: rgb(255,171,10);
-  border-top:1rpx solid rgb(255,171,10);
-  border-bottom:1rpx solid rgb(255,171,10);
+
+.title-search .weui-search-bar {
+  background-color: rgb(255, 171, 10);
+  border-top: 1rpx solid rgb(255, 171, 10);
+  border-bottom: 1rpx solid rgb(255, 171, 10);
 }
-.weui-search-bar__cancel-btn{
+
+.weui-search-bar__cancel-btn {
   color: white;
 }
-.weui-search-bar__label{
+
+.weui-search-bar__label {
   text-align: center;
 }
-.weui-icon-search{
+
+.weui-icon-search {
   position: relative;
   left: 0;
 }
-.weui-search-bar__form{
-  background-color: rgba(255,255,255,0.7);
-  border-radius:2px;
 
+.weui-search-bar__form {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
 }
-.weui-search-bar__input{
+
+.weui-search-bar__input {
   color: #d97f0a;
+}
+
+/*===============
+    底部tab
+  ===============*/
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background: white;
+  border-top: 1px solid #f1ece7;
+}
+
+.bottom navigator, .bottom button{
+  position: static;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  padding: 4px 0;
+  color: #999;
+  line-height: 1.2;
+  background-color: white;
+}
+.bottom button::after{
+  display: none;
+}
+.bottom navigator image, .bottom button image {
+  width: 24px;
 }

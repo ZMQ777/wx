@@ -1,9 +1,9 @@
 Page({
   data: {
     goodsBanner: [
-      '/static/img/good-banner.jpg',
-      '/static/img/good-banner.jpg',
-      '/static/img/good-banner.jpg'
+      'http://odwbo6hwu.bkt.clouddn.com/webapp/img/detail/pifu/visia/good-banner.jpg',
+      'http://odwbo6hwu.bkt.clouddn.com/webapp/img/detail/pifu/visia/good-banner.jpg',
+      'http://odwbo6hwu.bkt.clouddn.com/webapp/img/detail/pifu/visia/good-banner.jpg'
     ],
     goodsName: "【VISIA皮肤检测】精确的皮肤分析",
     price: "9.00",
@@ -11,49 +11,52 @@ Page({
     fee: "免运费",
     amount: "100",
     sales: "783",
-    goodsDetailUrl: "/static/img/good-detail.jpg",
+    goodsDetailImg: [
+      "http://odwbo6hwu.bkt.clouddn.com/webapp/img/detail/pifu/visia/good-detail.jpg",
+      "http://odwbo6hwu.bkt.clouddn.com/webapp/img/detail/pifu/visia/good-detail.jpg"
+    ],
     hotGoods: [
       [{
         text: '',
-        src: '/static/img/pifu_01.jpg',
-        url: '',
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/pifu/pifu_01.jpg',
+        url: '/pages/detail/detail',
         parse: '11.00',
         discount_price: ''
       }, {
         text: '',
-        src: '/static/img/pifu_02.jpg',
-        url: '',
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/pifu/pifu_02.jpg',
+        url: '/pages/detail/detail',
         parse: '11.00',
         discount_price: ''
       }, {
         text: '',
-        src: '/static/img/pifu_03.jpg',
-        url: '',
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/pifu/pifu_03.jpg',
+        url: '/pages/detail/detail',
         parse: '110',
         discount_price: '1000'
       }, {
         text: '',
-        src: '/static/img/pifu_04.jpg',
-        url: '',
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/pifu/pifu_04.jpg',
+        url: '/pages/detail/detail',
         parse: '300',
         discount_price: '3000'
       }],
       [{
         text: '',
-        src: '/static/img/pifu_02.jpg',
-        url: '',
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/pifu/pifu_02.jpg',
+        url: '/pages/detail/detail',
         parse: '11.00',
         discount_price: ''
       }, {
         text: '',
-        src: '/static/img/pifu_03.jpg',
-        url: '',
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/pifu/pifu_03.jpg',
+        url: '/pages/detail/detail',
         parse: '110',
         discount_price: '1000'
       }, {
         text: '',
-        src: '/static/img/pifu_04.jpg',
-        url: '',
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/pifu/pifu_04.jpg',
+        url: '/pages/detail/detail',
         parse: '300',
         discount_price: '3000'
       }]

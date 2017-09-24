@@ -2,39 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/detail/detail",
-    "pages/zt/zt",
-    "pages/jianjie/jianjie",
-    "pages/views/index/index",
-    "pages/logs/logs",
-    "pages/views/list1/list1",
-    "pages/views/list2/list2",
-    "pages/views/mysomething/mysomething",
-    "pages/views/list3/list3"
+    "pages/list/list",
+    "pages/jianjie/jianjie"
   ],
-  "tabBar": {
-    "color": "#999999",
-    "selectedColor": "#f4872c",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "主页",
-        "iconPath":"static/icon/home.png",
-        "selectedIconPath":"static/icon/home-selected.png"
-      },
-      {
-        "pagePath": "pages/views/list2/list2",
-        "text": "客服",
-        "iconPath": "static/icon/customer-service.png",
-        "selectedIconPath": "static/icon/customer-service-selected.png"
-      },
-      {
-        "pagePath": "pages/views/mysomething/mysomething",
-        "text": "订单",
-        "iconPath": "static/icon/order-form.png",
-        "selectedIconPath": "static/icon/order-form-selected.png"
-      }
-    ]
-  },
   "window": {
     "navigationBarTextStyle": "",
     "navigationBarTitleText": "武汉友好医院",
