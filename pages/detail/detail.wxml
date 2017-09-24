@@ -20,8 +20,10 @@
 </view>
 
 <view class='good-detail'>
-  <view>商品详情</view>
-  <image src='{{goodsDetailUrl}}' mode='widthFix'></image>
+  <view class='good-detail-title'>商品详情</view>
+  <view wx:for="{{goodsDetailImg}}" class='good-detail-img'>
+    <image src='{{item}}' mode='widthFix'></image>
+  </view>
 </view>
 
 <view class='hot-goods'>
@@ -31,7 +33,7 @@
       <swiper-item>
         <view class="hot-goods-swiper-item clearfix">
           <block wx:for="{{arrItem}}" wx:key="*this">
-            <navigator url="{{item.url}}" class="pifu_bar_div" hover-class="">
+            <navigator url="{{item.url}}" open-type="redirect" class="pifu_bar_div" hover-class="">
               <image class="img" src="{{item.src}}" mode='widthFix' />
               <view class='buy'>
                 <view class='display_inline money'>￥</view>
@@ -50,11 +52,10 @@
 </view>
 
 <view class='bottom'>
-  <navigator url="/pages/index/index"  >
-    <image src='/static/icon/car.png' mode='widthFix'></image>
+  <navigator url=""  >
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/car.png' mode='widthFix'></image>
   </navigator>
-
-  <navigator url="/pages/views/mysomething/mysomething"  >
+  <navigator url="">
     立即购买
   </navigator>
 </view>

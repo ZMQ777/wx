@@ -68,8 +68,12 @@
 .bar_div :nth-child(6){
   margin-left: 3%;
 } */
-
+.footer-div{
+  margin-bottom: 3rem;
+}
 .footer-div image{
   width: 100%;
   /* height: 100%; */
 }
+
+

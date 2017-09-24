@@ -5,7 +5,7 @@
       <view class="weui-search-bar__form">
         <view class="weui-search-bar__box">
           <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
-          <input type="text" class="weui-search-bar__input" placeholder="搜索商品" value="" focus="{{inputShowed}}" bindinput="inputTyping" placeholder-class="font-color"/>
+          <input type="text" class="weui-search-bar__input" placeholder="搜索商品" value="" focus="{{inputShowed}}" bindinput="inputTyping" placeholder-class="font-color" />
           <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
             <icon type="clear" size="14"></icon>
           </view>
@@ -17,15 +17,24 @@
 </view>
 
 <view class='banner-div'>
-  <image mode='widthFix' src='/static/img/banner.jpg'></image>
+  <image mode='widthFix' src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/banner.jpg'></image>
 </view>
 <view class="bar_nav clearfix">
   <block wx:for="{{grids}}" wx:key="*this">
-    <navigator url="{{item.url}}" class="bar_div">
+    <navigator url="{{item.url}}" open-type="navigate" class="bar_div">
       <image class="img" src="{{item.src}}" mode='' />
     </navigator>
   </block>
 </view>
 <view class='footer-div'>
-  <image mode='widthFix' src='../../static/img/footer.jpg'></image>
+  <image mode='widthFix' src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/footer.jpg'></image>
+</view>
+
+<view class='bottom'>
+  <navigator url="" hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/home-selected.png' mode='widthFix'></image>首页
+  </navigator>
+  <button open-type="contact">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/customer-service.png' mode='widthFix'></image>客服
+  </button>
 </view>

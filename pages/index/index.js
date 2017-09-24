@@ -7,29 +7,29 @@ Page({
     grids: [
       {
         label: '1',
-        src: '/static/img/bar_one.jpg',
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_one.jpg',
         url: '/pages/jianjie/jianjie'
       }, {
         label: '2',
-        src: '/static/img/bar_two.jpg',
-        url: '../views/list3/list3?t=2'
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_two.jpg',
+        url: ''
       }, {
         label: '3',
-        src: '/static/img/bar_three.jpg',
-        url: '../views/list3/list3?t=3'
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_three.jpg',
+        url: ''
       }
       , {
         label: '4',
-        src: '/static/img/bar_four.jpg',
-        url: '/pages/zt/zt?t=pifu'
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_four.jpg',
+        url: '/pages/list/list?t=pifu'
       }, {
         label: '5',
-        src: '/static/img/bar_five.jpg',
-        url: '/pages/zt/zt?t=fuke'
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_five.jpg',
+        url: '/pages/list/list?t=fuke'
       }, {
         label: '6',
-        src: '/static/img/bar_six.jpg',
-        url: '/pages/zt/zt?t=nanke'
+        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_six.jpg',
+        url: '/pages/list/list?t=nanke'
       }
     ],
     motto: '你好',
@@ -38,13 +38,13 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
-  bindViewTap: function() {
+  bindViewTap: function () {
     wx.navigateTo({
       // url: '../logs/logs'
       url: '../views/mysomething/mysomething'
     })
   },
-  bindmysothing:function(){
+  bindmysothing: function () {
     wx.navigateTo({
       url: '../mysomething/mysomething'
 
@@ -57,7 +57,7 @@ Page({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
       })
-    } else if (this.data.canIUse){
+    } else if (this.data.canIUse) {
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况
       app.userInfoReadyCallback = res => {
@@ -79,7 +79,7 @@ Page({
       })
     }
   },
-  getUserInfo: function(e) {
+  getUserInfo: function (e) {
     // console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({

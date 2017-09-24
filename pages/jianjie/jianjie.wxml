@@ -1,5 +1,5 @@
 <view class="banner">
-  <image mode="widthFix" src='/static/img/banner-12year.jpg'></image>
+  <image mode="widthFix" src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/banner-12year.jpg'></image>
 </view>
 
 <view class='main-title'>
@@ -46,12 +46,12 @@
   </view>
   <view class="switch-item {{currentDocTab==1 ? 'switch-item-active' : ''}}">
     <view>
-      <image src='/static/img/doc1.jpg' mode='widthFix'></image>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc1.jpg' mode='widthFix'></image>
       <text>擅长：各种复杂的腹式和阴式手术治疗妇科肿瘤。1
       </text>
     </view>
     <view>
-      <image src='/static/img/doc1.jpg' mode='widthFix'></image>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc1.jpg' mode='widthFix'></image>
       <text>擅长：妇产科的剖宫产术、附件及子宫切除术。1
       </text>
     </view>
@@ -60,7 +60,7 @@
 </view>
 
 <view class='middle-banner'>
-  <image src='/static/img/jianjie-middle-banner.jpg' mode='widthFix'></image>
+  <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jianjie-middle-banner.jpg' mode='widthFix'></image>
 </view>
 
 
@@ -86,7 +86,7 @@
 
 
   <view class="switch-item {{currentJiShuTab==0 ? 'switch-item-active' : ''}}">
-    <image src='/static/img/jishu3.jpg' mode='widthFix'></image>
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu3.jpg' mode='widthFix'></image>
     <view>
       <view>· 新一代前列腺内场效消融介入排毒术</view>
       <view>· 韩式包皮精雕整形术</view>
@@ -95,7 +95,7 @@
     </view>
   </view>
   <view class="switch-item {{currentJiShuTab==1 ? 'switch-item-active' : ''}}">
-    <image src='/static/img/jishu3.jpg' mode='widthFix'></image>
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu3.jpg' mode='widthFix'></image>
     <view>
       <view>· 新一代前列腺内场效消融介入排毒术</view>
       <view>· 韩式包皮精雕整形术</view>
@@ -104,7 +104,7 @@
     </view>
   </view>
   <view class="switch-item {{currentJiShuTab==2 ? 'switch-item-active' : ''}}">
-    <image src='/static/img/jishu3.jpg' mode='widthFix'></image>
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu3.jpg' mode='widthFix'></image>
     <view>
       <view>· 新一代前列腺内场效消融介入排毒术</view>
       <view>· 韩式包皮精雕整形术</view>
@@ -128,17 +128,12 @@
 </view>
 
 
+
 <view class='bottom'>
-  <navigator url="/pages/index/index" open-type="switchTab" hover-class="none">
-    <image src='/static/icon/home-selected.png' mode='widthFix'></image>
-    首页
+  <navigator url="/pages/index/index" open-type='navigateBack' hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/home.png' mode='widthFix'></image>首页
   </navigator>
-  <navigator url="/pages/views/list2/list2" open-type="switchTab" hover-class="none">
-    <image src='/static/icon/customer-service.png' mode='widthFix'></image>
-    客服
-  </navigator>
-  <navigator url="/pages/views/mysomething/mysomething" open-type="switchTab" hover-class="none">
-    <image src='/static/icon/order-form.png' mode='widthFix'></image>
-    订单
-  </navigator>
+  <button open-type="contact" >
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/customer-service.png' mode='widthFix'></image>客服
+  </button>
 </view>

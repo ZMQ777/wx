@@ -35,22 +35,22 @@ Page({
 
 
     "gongyi": [{
-      "img": "/static/img/gongyi-top-1.jpg",
+      "img": "http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/gongyi-top-1.jpg",
       "text": "百万慈善基金援助"
     }, {
-      "img": "/static/img/gongyi-top-2.jpg",
+        "img": "http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/gongyi-top-2.jpg",
       "text": "社区义诊活动"
     }, {
-      "img": "/static/img/gongyi-top-3.jpg",
+        "img": "http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/gongyi-top-3.jpg",
       "text": "春节送温暖献爱心"
     }, {
-      "img": "/static/img/gongyi-bottom-1.jpg",
+        "img": "http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/gongyi-bottom-1.jpg",
       "text": "医护人员捐款献爱心"
     }, {
-      "img": "/static/img/gongyi-bottom-2.jpg",
+        "img": "http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/gongyi-bottom-2.jpg",
       "text": "设立爱心驿站"
     }, {
-      "img": "/static/img/gongyi-bottom-3.jpg",
+        "img": "http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/gongyi-bottom-3.jpg",
       "text": "评为“最具爱心医院”"
     }]
   },
