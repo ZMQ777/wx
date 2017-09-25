@@ -34,12 +34,12 @@
 
   <view class="switch-item {{currentDocTab==0 ? 'switch-item-active' : ''}}">
     <view>
-      <image src='/static/img/doc1.jpg' mode='widthFix'></image>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc1.jpg' mode='widthFix'></image>
       <text>擅长：各种复杂的腹式和阴式手术治疗妇科肿瘤。
       </text>
     </view>
     <view>
-      <image src='/static/img/doc2.jpg' mode='widthFix'></image>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc2.jpg' mode='widthFix'></image>
       <text>擅长：妇产科的剖宫产术、附件及子宫切除术。
       </text>
     </view>
