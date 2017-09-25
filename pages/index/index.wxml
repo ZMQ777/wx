@@ -30,6 +30,8 @@
   <image mode='widthFix' src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/footer.jpg'></image>
 </view>
 
+<view class='_blank'></view>
+
 <view class='bottom'>
   <navigator url="" hover-class="none">
     <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/home-selected.png' mode='widthFix'></image>首页
@@ -38,3 +40,5 @@
     <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/customer-service.png' mode='widthFix'></image>客服
   </button>
 </view>
+
+

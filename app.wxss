@@ -140,3 +140,10 @@ page {
 .bottom navigator image, .bottom button image {
   width: 24px;
 }
+
+._blank{
+  height: 3rem;
+}
+page{
+  max-width: 100%;
+}

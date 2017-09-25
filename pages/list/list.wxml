@@ -28,3 +28,15 @@
     </navigator>
   </block>
 </view>
+<view class='_blank'></view>
+<view class='bottom'>
+  <navigator url="/pages/index/index" open-type="reLaunch" hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/home.png' mode='widthFix'></image>首页
+  </navigator>
+  <button open-type="contact">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/customer-service.png' mode='widthFix'></image>客服
+  </button>
+    <navigator open-type="navigateBack" hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/back.png' mode='widthFix'></image>返回
+  </navigator>
+</view>
