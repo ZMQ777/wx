@@ -181,6 +181,27 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var self = this ;
+  // wx.request({
+  //   url: 'http://127.0.0.1/test/pifu.json',
+    
+  //   // url: 'http://127.0.0.1/test/config.php',
+  //   data: {
+  //     x: '',
+  //     y: ''
+  //   },
+  //   header: {
+  //     'content-type': 'application/json'
+  //   },
+  //   success: function (res) {
+  //     self.setData({
+  //       grids: res.data
+  //     })
+  //   }
+  // })  
+
+
+
     var t = options.t;
     switch(t){
       case "pifu":
