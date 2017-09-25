@@ -10,7 +10,7 @@
 <view class='good-info'>
   <view class='good-name'>{{pageGoodInfo.goodsName}}</view>
   <text class='good-new-price'>￥{{pageGoodInfo.price}}</text>
-  <text class='good-old-price'>原价￥{{pageGoodInfo.price2}}</text>
+  <text wx:if="{{pageGoodInfo.price2}}" class='good-old-price'>原价￥{{pageGoodInfo.price2}}</text>
 </view>
 
 <view class='yunfei'>
@@ -50,12 +50,13 @@
     </block>
   </swiper>
 </view>
-
+<view class='_blank'></view>
 <view class='bottom'>
-  <navigator url=""  >
-    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/car.png' mode='widthFix'></image>
+  <navigator open-type="navigateBack" hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/back.png' mode='widthFix'></image>返回
   </navigator>
-  <navigator url="">
-    立即购买
-  </navigator>
+  <button open-type="contact">
+    <!-- <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/customer-service.png' mode='widthFix'></image> -->
+    咨询客服
+  </button>
 </view>

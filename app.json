@@ -1,15 +1,15 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/jianjie/jianjie",
     "pages/detail/detail",
-    "pages/list/list",
-    "pages/jianjie/jianjie"
+    "pages/list/list"
   ],
   "window": {
     "navigationBarTextStyle": "",
     "navigationBarTitleText": "武汉友好医院",
-    "navigationBarBackgroundColor": "rgb(255,171,10)",
-    "backgroundColor": "rgb(255,255,255)"
+    "navigationBarBackgroundColor": "#FFAB0A",
+    "backgroundColor": "#ffffff"
   },
   "networkTimeout": {
     "request": 10000,

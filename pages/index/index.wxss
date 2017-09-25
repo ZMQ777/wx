@@ -69,7 +69,7 @@
   margin-left: 3%;
 } */
 .footer-div{
-  margin-bottom: 3rem;
+  /* margin-bottom: 4rem; */
 }
 .footer-div image{
   width: 100%;

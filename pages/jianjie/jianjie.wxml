@@ -43,16 +43,46 @@
       <text>擅长：妇产科的剖宫产术、附件及子宫切除术。
       </text>
     </view>
-  </view>
-  <view class="switch-item {{currentDocTab==1 ? 'switch-item-active' : ''}}">
     <view>
-      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc1.jpg' mode='widthFix'></image>
-      <text>擅长：各种复杂的腹式和阴式手术治疗妇科肿瘤。1
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc_lsk.jpg' mode='widthFix'></image>
+      <text>擅长：龟头炎、尿道炎、前列腺疾病、包皮包茎等。
       </text>
     </view>
     <view>
-      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc1.jpg' mode='widthFix'></image>
-      <text>擅长：妇产科的剖宫产术、附件及子宫切除术。1
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc_lxc.jpg' mode='widthFix'></image>
+      <text>擅长：前列腺肥大、阳痿早泄，龟头炎、男性不育等。
+      </text>
+    </view>
+  </view>
+  <view class="switch-item {{currentDocTab==1 ? 'switch-item-active' : ''}}">
+    <view>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc_ljg.jpg' mode='widthFix'></image>
+      <text>擅长：妇产科常见病、多发病及宫颈疾病的诊治。
+      </text>
+    </view>
+    <view>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc_lsx.jpg' mode='widthFix'></image>
+      <text>擅长：宫腹腔镜联合治疗妇科常见病、多发病及良性肿瘤。
+      </text>
+    </view>
+    <view>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc_hce.jpg' mode='widthFix'></image>
+      <text>擅长：妇科炎症、计划生育手术等。
+      </text>
+    </view>
+    <view>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc_xhy.jpg' mode='widthFix'></image>
+      <text>擅长：宫腹腔镜微创技术。
+      </text>
+    </view>
+    <view>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc_zrf.jpg' mode='widthFix'></image>
+      <text>擅长：早孕、宫外孕、异常妊娠及处女膜修复等私密整形。
+      </text>
+    </view>
+    <view>
+      <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/doc_tpx.jpg' mode='widthFix'></image>
+      <text>擅长：阴道炎、盆腔炎等妇科常见病。
       </text>
     </view>
   </view>
@@ -70,7 +100,7 @@
   <view class='bottom'></view>
 </view>
 
-<view class='jishu switch'>
+<view class='jishu switch clearfix'>
   <view class='switch-tab'>
     <view class=" {{currentJiShuTab==0 ? 'switch-tab-active' : ''}}" data-current="0" bindtap='swichJiShuTab'>
       妇科技术
@@ -86,21 +116,21 @@
 
 
   <view class="switch-item {{currentJiShuTab==0 ? 'switch-item-active' : ''}}">
-    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu3.jpg' mode='widthFix'></image>
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu1.jpg' mode='widthFix'></image>
     <view>
-      <view>· 新一代前列腺内场效消融介入排毒术</view>
-      <view>· 韩式包皮精雕整形术</view>
-      <view>· 六位一体分型疗法</view>
-      <view>· 美国CRS短波治疗系统 </view>
+      <view>· 艾薇儿阴道平衡疗法</view>
+      <view>· 双腔减压无痛人流</view>
+      <view>· 德国WOLF宫腹腔镜技术</view>
+      <view>· 美国奥洛克宫颈除糜系统 </view>
     </view>
   </view>
   <view class="switch-item {{currentJiShuTab==1 ? 'switch-item-active' : ''}}">
-    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu3.jpg' mode='widthFix'></image>
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu2.jpg' mode='widthFix'></image>
     <view>
-      <view>· 新一代前列腺内场效消融介入排毒术</view>
-      <view>· 韩式包皮精雕整形术</view>
-      <view>· 六位一体分型疗法</view>
-      <view>· 美国CRS短波治疗系统 </view>
+      <view>· 中西结合五大战痘神器</view>
+      <view>· 清热去脂综合疗法</view>
+      <view>· 中医综合疗法</view>
+      <view>· 韩国3D光纤定位消融术 </view>
     </view>
   </view>
   <view class="switch-item {{currentJiShuTab==2 ? 'switch-item-active' : ''}}">
@@ -113,7 +143,8 @@
     </view>
   </view>
 </view>
-<view class='main-title'>
+
+<view class='main-title gongyi-title'>
   <view class='top'></view>
   友好大公益
   <view class='bottom'></view>
@@ -129,11 +160,15 @@
 
 
 
+
 <view class='bottom'>
-  <navigator url="/pages/index/index" open-type='navigateBack' hover-class="none">
+  <navigator url="/pages/index/index" open-type="reLaunch" hover-class="none">
     <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/home.png' mode='widthFix'></image>首页
   </navigator>
-  <button open-type="contact" >
+  <button open-type="contact">
     <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/customer-service.png' mode='widthFix'></image>客服
   </button>
+  <navigator open-type="navigateBack" hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/back.png' mode='widthFix'></image>返回
+  </navigator>
 </view>
