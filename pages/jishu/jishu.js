@@ -6,8 +6,8 @@ Page({
    */
   data: {
     currentFukeTab: 1,
-    currentNankeTab: 1,
-    currentPifuTab: 8,
+    currentNankeTab: 8,
+    currentPifuTab: 1,
     fukeTabItem: [
       {
         'tabId': '1',
@@ -209,7 +209,11 @@ Page({
       }
     ]
   },
-
+  onLoad: function(options){
+    wx.setNavigationBarTitle({
+      title: '特色技术',
+    })
+  },
   swichFukeTab: function (e) {
     var self = this;
     if (self.data.currentFukeTab === e.target.dataset.current) {
