@@ -54,7 +54,11 @@ Page({
       "text": "评为“最具爱心医院”"
     }]
   },
-
+  onLoad: function (options) {
+    wx.setNavigationBarTitle({
+      title: '简介',
+    })
+  },
 
   swichDocTab: function (e) {
     var self = this;

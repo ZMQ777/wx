@@ -115,7 +115,7 @@
 
 
   <view class="switch-item {{currentJiShuTab==0 ? 'switch-item-active' : ''}}">
-    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu1.jpg' mode='widthFix'></image>
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu2.jpg' mode='widthFix'></image>
     <view>
       <view>· 艾薇儿阴道平衡疗法</view>
       <view>· 双腔减压无痛人流</view>
@@ -124,7 +124,7 @@
     </view>
   </view>
   <view class="switch-item {{currentJiShuTab==1 ? 'switch-item-active' : ''}}">
-    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu2.jpg' mode='widthFix'></image>
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jianjie/jishu1.jpg' mode='widthFix'></image>
     <view>
       <view>· 中西结合五大战痘神器</view>
       <view>· 清热去脂综合疗法</view>

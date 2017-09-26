@@ -21,14 +21,18 @@
 
   <view wx:for="{{fukeTabItem}}">
     <view class="switch-item {{currentFukeTab==item.tabId ? 'switch-item-active' : ''}}">
-      <image class='switch-item-banner' src='{{item.banner}}' mode='widthFix'></image> 
-      <view class='switch-item-info'><text>表现症状</text>{{item.zz}}
+      <image class='switch-item-banner' src='{{item.banner}}' mode='widthFix'></image>
+      <view class='switch-item-info clearfix'>
+        <view class='switch-item-info-left'>表现症状</view>
+        <view class='switch-item-info-right'>{{item.zz}}</view>
       </view>
-      <view class='switch-item-info'><text>推荐疗法</text>{{item.lf}}
+      <view class='switch-item-info clearfix'>
+        <view class='switch-item-info-left'>推荐疗法</view>
+        <view class='switch-item-info-right'>{{item.lf}}</view>
       </view>
       <view class='switch-item-by clearfix'>
         <view class='switch-item-by-title'>病友交流</view>
-        
+
         <image src="{{item.by[0]}}" mode='widthFix'></image>
         <image src="{{item.by[1]}}" mode='widthFix'></image>
       </view>
@@ -49,14 +53,18 @@
 
   <view wx:for="{{pifuTabItem}}">
     <view class="switch-item {{currentPifuTab==item.tabId ? 'switch-item-active' : ''}}">
-      <image class='switch-item-banner' src='{{item.banner}}' mode='widthFix'></image> 
-      <view class='switch-item-info'><text>表现症状</text>{{item.zz}}
+      <image class='switch-item-banner' src='{{item.banner}}' mode='widthFix'></image>
+      <view class='switch-item-info clearfix'>
+        <view class='switch-item-info-left'>表现症状</view>
+        <view class='switch-item-info-right'>{{item.zz}}</view>
       </view>
-      <view class='switch-item-info'><text>推荐疗法</text>{{item.lf}}
+      <view class='switch-item-info clearfix'>
+        <view class='switch-item-info-left'>推荐疗法</view>
+        <view class='switch-item-info-right'>{{item.lf}}</view>
       </view>
       <view class='switch-item-by clearfix'>
         <view class='switch-item-by-title'>病友交流</view>
-        
+
         <image src="{{item.by[0]}}" mode='widthFix'></image>
         <image src="{{item.by[1]}}" mode='widthFix'></image>
       </view>
@@ -81,14 +89,18 @@
 
   <view wx:for="{{nankeTabItem}}">
     <view class="switch-item {{currentNankeTab==item.tabId ? 'switch-item-active' : ''}}">
-      <image class='switch-item-banner' src='{{item.banner}}' mode='widthFix'></image> 
-      <view class='switch-item-info'><text>表现症状</text>{{item.zz}}
+      <image class='switch-item-banner' src='{{item.banner}}' mode='widthFix'></image>
+      <view class='switch-item-info clearfix'>
+        <view class='switch-item-info-left'>表现症状</view>
+        <view class='switch-item-info-right'>{{item.zz}}</view>
       </view>
-      <view class='switch-item-info'><text>推荐疗法</text>{{item.lf}}
+      <view class='switch-item-info clearfix'>
+        <view class='switch-item-info-left'>推荐疗法</view>
+        <view class='switch-item-info-right'>{{item.lf}}</view>
       </view>
       <view class='switch-item-by clearfix'>
         <view class='switch-item-by-title'>病友交流</view>
-        
+
         <image src="{{item.by[0]}}" mode='widthFix'></image>
         <image src="{{item.by[1]}}" mode='widthFix'></image>
       </view>
