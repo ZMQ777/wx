@@ -149,19 +149,19 @@ Page({
       }, {
         text: '',
         src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/fuke/fuke_sz1.jpg',
-        url: '/pages/detail/detail?list=women&project=women4',
+        url: '',
         parse: '3.3',
         discount_price: ''
       }, {
         text: '',
         src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/fuke/fuke_sz2.jpg',
-        url: '/pages/detail/detail?list=women&project=women4',
+        url: '',
         parse: '3.3',
         discount_price: ''
       }, {
         text: '',
         src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/list/fuke/fuke_sz3.jpg',
-        url: '/pages/detail/detail?list=women&project=women4',
+        url: '',
         parse: '3.3',
         discount_price: ''
       }

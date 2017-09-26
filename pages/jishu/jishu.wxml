@@ -1,0 +1,114 @@
+<view class="banner">
+  <image mode="widthFix" src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jishu/banner.jpg'></image>
+</view>
+
+<view class='main-title'>
+  <view class='top'></view>
+  友好大技术
+  <view class='bottom'></view>
+</view>
+
+<view class='title'>
+  <text>妇科技术</text>
+</view>
+
+<view class='doctor switch'>
+  <view class='switch-tab clearfix' wx:for="{{fukeTabItem}}">
+    <view class=" {{currentFukeTab==item.tabId ? 'switch-tab-active' : ''}}" data-current="{{item.tabId}}" bindtap='swichFukeTab'>
+      {{item.title}}
+    </view>
+  </view>
+
+  <view wx:for="{{fukeTabItem}}">
+    <view class="switch-item {{currentFukeTab==item.tabId ? 'switch-item-active' : ''}}">
+      <image class='switch-item-banner' src='{{item.banner}}' mode='widthFix'></image> 
+      <view class='switch-item-info'><text>表现症状</text>{{item.zz}}
+      </view>
+      <view class='switch-item-info'><text>推荐疗法</text>{{item.lf}}
+      </view>
+      <view class='switch-item-by clearfix'>
+        <view class='switch-item-by-title'>病友交流</view>
+        
+        <image src="{{item.by[0]}}" mode='widthFix'></image>
+        <image src="{{item.by[1]}}" mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='title'>
+  <text>皮肤科技术</text>
+</view>
+
+<view class='doctor switch'>
+  <view class='switch-tab clearfix' wx:for="{{pifuTabItem}}">
+    <view class=" {{currentPifuTab==item.tabId ? 'switch-tab-active' : ''}}" data-current="{{item.tabId}}" bindtap='swichPifuTab'>
+      {{item.title}}
+    </view>
+  </view>
+
+  <view wx:for="{{pifuTabItem}}">
+    <view class="switch-item {{currentPifuTab==item.tabId ? 'switch-item-active' : ''}}">
+      <image class='switch-item-banner' src='{{item.banner}}' mode='widthFix'></image> 
+      <view class='switch-item-info'><text>表现症状</text>{{item.zz}}
+      </view>
+      <view class='switch-item-info'><text>推荐疗法</text>{{item.lf}}
+      </view>
+      <view class='switch-item-by clearfix'>
+        <view class='switch-item-by-title'>病友交流</view>
+        
+        <image src="{{item.by[0]}}" mode='widthFix'></image>
+        <image src="{{item.by[1]}}" mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="middle-banner">
+  <image mode="widthFix" src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jishu/middle-banner.jpg'></image>
+</view>
+
+<view class='title'>
+  <text>男科技术</text>
+</view>
+
+<view class='doctor switch'>
+  <view class='switch-tab clearfix' wx:for="{{nankeTabItem}}">
+    <view class=" {{currentNankeTab==item.tabId ? 'switch-tab-active' : ''}}" data-current="{{item.tabId}}" bindtap='swichNankeTab'>
+      {{item.title}}
+    </view>
+  </view>
+
+  <view wx:for="{{nankeTabItem}}">
+    <view class="switch-item {{currentNankeTab==item.tabId ? 'switch-item-active' : ''}}">
+      <image class='switch-item-banner' src='{{item.banner}}' mode='widthFix'></image> 
+      <view class='switch-item-info'><text>表现症状</text>{{item.zz}}
+      </view>
+      <view class='switch-item-info'><text>推荐疗法</text>{{item.lf}}
+      </view>
+      <view class='switch-item-by clearfix'>
+        <view class='switch-item-by-title'>病友交流</view>
+        
+        <image src="{{item.by[0]}}" mode='widthFix'></image>
+        <image src="{{item.by[1]}}" mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="middle-banner">
+  <image mode="widthFix" src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/jishu/footer.jpg'></image>
+</view>
+
+<view class='_blank'></view>
+
+<view class='bottom'>
+  <navigator url="/pages/index/index" open-type="reLaunch" hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/home.png' mode='widthFix'></image>首页
+  </navigator>
+  <button open-type="contact">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/customer-service.png' mode='widthFix'></image>客服
+  </button>
+  <navigator open-type="navigateBack" hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/back.png' mode='widthFix'></image>返回
+  </navigator>
+</view>

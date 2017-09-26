@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/jishu/jishu",
     "pages/jianjie/jianjie",
     "pages/detail/detail",
     "pages/list/list",

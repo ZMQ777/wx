@@ -16,7 +16,7 @@ Page({
       }, {
         label: '3',
         src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_three.jpg',
-        url: ''
+        url: '/pages/jishu/jishu'
       }
       , {
         label: '4',
