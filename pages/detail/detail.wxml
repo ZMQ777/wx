@@ -1,5 +1,5 @@
 <!--pages/detail/detail.wxml-->
-<swiper class='detail-banner' indicator-dots="true" autoplay="true" interval="5000" duration="1000" indicator-color="rgba(0, 0, 0, .3)" indicator-active-color="#FF890A" circular="true">
+<swiper class='detail-banner' indicator-dots="{{bannerIndicatorDots}}" autoplay="true" interval="5000" duration="1000" indicator-color="rgba(0, 0, 0, .3)" indicator-active-color="#FF890A" circular="true">
   <block wx:for="{{pageGoodInfo.goodsBanner}}" wx:key="*this">
     <swiper-item>
       <image src="{{item}}" mode='widthFix' />
@@ -28,7 +28,7 @@
 
 <view class='hot-goods'>
   <view class='hot-goods-title'>热门商品</view>
-  <swiper indicator-dots="true" autoplay="true" indicator-color="rgba(0, 0, 0, .3)" indicator-active-color="#FF890A" circular="true">
+  <swiper indicator-dots="{{hotIndicatorDots}}" autoplay="true" indicator-color="rgba(0, 0, 0, .3)" indicator-active-color="#FF890A" circular="true">
     <block wx:for="{{pageHotGood}}" wx:for-item="arrItem">
       <swiper-item>
         <view class="hot-goods-swiper-item clearfix">

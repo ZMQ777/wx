@@ -2,7 +2,8 @@ Page({
   data: {
     pageGoodInfo: null,
     pageHotGood: null,
-
+    bannerIndicatorDots: true,
+    hotIndicatorDots: true,
     goods: {
       VISIApifujiance: {
         goodsBanner: [
@@ -770,5 +771,11 @@ Page({
           break;
       }
     }
+
+    this.setData({
+      bannerIndicatorDots: this.data.pageGoodInfo.goodsBanner.length>1?true:false,
+      hotIndicatorDots: this.data.pageHotGood.length>1?true:false,
+    })
+
   }
 })
