@@ -12,7 +12,7 @@ Page({
       }, {
         label: '2',
         src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_two.jpg',
-        url: ''
+        url: '/pages/zhuanjia/zhuanjia'
       }, {
         label: '3',
         src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_three.jpg',

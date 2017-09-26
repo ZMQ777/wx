@@ -1,0 +1,83 @@
+<!--pages/zhuanjia/zhuanjia.wxml-->
+<view class="banner">
+  <image mode="widthFix" src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/zhuanjia/banner.jpg'></image>
+</view>
+
+<view class='main-title'>
+  <view class='top'></view>
+  专家坐诊 彰显实力
+  <view class='bottom'></view>
+</view>
+
+<view class='zhuanjia'>
+  <view class='zhuanjia-title'>
+    妇科专家
+  </view>
+</view>
+<view class='clearfix zhuanjia-nav'>
+  <block wx:for="{{fukezhuanjia}}" wx:key="*this">
+    <view class='zhuanjia-div'>
+      <image class="img" src="{{item.src}}" mode='widthFix' />
+      <view class='ysjj'>
+        {{item.text}}
+      </view>
+    </view>
+  </block>
+</view>
+
+<view class='middle-banner'>
+  <image mode="widthFix" src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/zhuanjia/middle_banner.jpg'></image>
+</view>
+
+<view class='zhuanjia'>
+  <view class='zhuanjia-title'>
+    皮肤科专家
+  </view>
+</view>
+<view class='clearfix zhuanjia-nav'>
+  <block wx:for="{{pifuke}}" wx:key="*this">
+    <view class='zhuanjia-div'>
+      <image class="img" src="{{item.src}}" mode='widthFix' />
+      <view class='ysjj'>
+        {{item.text}}
+      </view>
+    </view>
+  </block>
+</view>
+
+<view class='zhuanjia'>
+  <view class='zhuanjia-title'>
+    泌尿外科专家
+  </view>
+</view>
+<view class='clearfix zhuanjia-nav'>
+  <block wx:for="{{biniaowaike}}" wx:key="*this">
+    <view class='zhuanjia-div bn'>
+      <image class="img" src="{{item.src}}" mode='widthFix' />
+      <view class='ysjj'>
+        {{item.text}}
+      </view>
+    </view>
+  </block>
+  <view class='qqlh'>
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/zhuanjia/qiangqianglianshou.jpg'></image>
+  </view>
+</view>
+
+
+
+<view class='footer'>
+<image mode="widthFix" src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/zhuanjia/bottom.jpg'></image>
+</view>
+
+<view class='bottom'>
+  <navigator url="/pages/index/index" open-type="reLaunch" hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/home.png' mode='widthFix'></image>首页
+  </navigator>
+  <button open-type="contact">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/customer-service.png' mode='widthFix'></image>客服
+  </button>
+  <navigator open-type="navigateBack" hover-class="none">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/back.png' mode='widthFix'></image>返回
+  </navigator>
+</view>

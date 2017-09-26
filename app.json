@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/jianjie/jianjie",
     "pages/detail/detail",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/zhuanjia/zhuanjia"
   ],
   "window": {
     "navigationBarTextStyle": "",
