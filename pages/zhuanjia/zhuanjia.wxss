@@ -131,6 +131,12 @@
 .zhuanjia-div .img{
   width: 100%;
 }
+.zhuanjia-div wx-button{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  opacity: 0;
+}
 .ysjj{
   width: 100%;
   position: relative;

@@ -17,7 +17,10 @@
 <view class='clearfix zhuanjia-nav'>
   <block wx:for="{{fukezhuanjia}}" wx:key="*this">
     <view class='zhuanjia-div'>
+      <button open-type="contact" class='btn'>
+      </button>
       <image class="img" src="{{item.src}}" mode='widthFix' />
+      
       <view class='ysjj'>
         {{item.text}}
       </view>
@@ -37,6 +40,8 @@
 <view class='clearfix zhuanjia-nav'>
   <block wx:for="{{pifuke}}" wx:key="*this">
     <view class='zhuanjia-div'>
+    <button open-type="contact" class='btn'>
+      </button>
       <image class="img" src="{{item.src}}" mode='widthFix' />
       <view class='ysjj'>
         {{item.text}}
@@ -52,7 +57,9 @@
 </view>
 <view class='clearfix zhuanjia-nav'>
   <block wx:for="{{biniaowaike}}" wx:key="*this">
-    <view class='zhuanjia-div bn'>
+    <view class='zhuanjia-div'>
+    <button open-type="contact" class='btn'>
+      </button>
       <image class="img" src="{{item.src}}" mode='widthFix' />
       <view class='ysjj'>
         {{item.text}}
