@@ -87,12 +87,6 @@ Page({
           url: '',
           src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/zhuanjia/biniaowaike_03.jpg',
           text: '擅长：前列腺炎、前列腺增生、阳 痿早泄、包皮包茎微创术等。'
-        },
-        {
-          name: '',
-          url: '',
-          src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/zhuanjia/qiangqianglianshou.jpg',
-          text: ''
         }
 
       ]  
@@ -109,7 +103,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  
+
   },
 
   /**

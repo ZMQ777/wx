@@ -18,9 +18,9 @@
   <block wx:for="{{fukezhuanjia}}" wx:key="*this">
     <view class='zhuanjia-div'>
       <image class="img" src="{{item.src}}" mode='widthFix' />
-      <text class='ysjj'>
+      <view class='ysjj'>
         {{item.text}}
-      </text>
+      </view>
     </view>
   </block>
 </view>
@@ -38,9 +38,9 @@
   <block wx:for="{{pifuke}}" wx:key="*this">
     <view class='zhuanjia-div'>
       <image class="img" src="{{item.src}}" mode='widthFix' />
-      <text class='ysjj'>
+      <view class='ysjj'>
         {{item.text}}
-      </text>
+      </view>
     </view>
   </block>
 </view>
@@ -54,12 +54,17 @@
   <block wx:for="{{biniaowaike}}" wx:key="*this">
     <view class='zhuanjia-div bn'>
       <image class="img" src="{{item.src}}" mode='widthFix' />
-      <text class='ysjj'>
+      <view class='ysjj'>
         {{item.text}}
-      </text>
+      </view>
     </view>
   </block>
+  <view class='qqlh'>
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/zhuanjia/qiangqianglianshou.jpg'></image>
+  </view>
 </view>
+
+
 
 <view class='footer'>
 <image mode="widthFix" src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/zhuanjia/bottom.jpg'></image>
