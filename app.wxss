@@ -143,7 +143,7 @@ page {
 }
 
 ._blank{
-  height: 3rem;
+  height: 1.1rem;
 }
 page{
   max-width: 100%;
@@ -247,3 +247,21 @@ page{
   display: block;
 }  
 
+
+.float_btn{
+  position: fixed;
+  right: 1%;
+  bottom: 25%;
+  z-index: 101;
+
+}
+.float_btn image{
+  width: 48px;
+  height: 48px;
+}
+.float_btn button{
+  background: transparent;
+}
+.float_btn button::after{
+  display: none;
+}

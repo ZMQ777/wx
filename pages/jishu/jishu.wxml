@@ -113,6 +113,13 @@
 
 <view class='_blank'></view>
 
+
+<view class='float_btn'>
+  <button class=''  open-type="contact">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/tb222.png'></image>
+  </button>
+</view>
+
 <view class='bottom'>
   <navigator url="/pages/index/index" open-type="reLaunch" hover-class="none">
     <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/home.png' mode='widthFix'></image>首页

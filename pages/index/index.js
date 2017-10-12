@@ -113,4 +113,18 @@ Page({
       text: "111"
     });
   },
+  makePhoneCall:function(){
+    wx.makePhoneCall({
+      phoneNumber: '027-84777777',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  /**
+ * 用户点击右上角分享
+ */
+  onShareAppMessage: function () {
+
+  }
 })

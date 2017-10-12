@@ -30,6 +30,20 @@
   <image mode='widthFix' src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/footer.jpg'></image>
 </view>
 
+
+<view class='footer_ingo'>
+  <image mode='widthFix' src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/footer_info.jpg'></image>
+</view>
+
+<view class='phone_btn' bindtap='makePhoneCall'></view> 
+
+
+<view class='float_btn'>
+  <button class=''  open-type="contact">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/tb222.png'></image>
+  </button>
+</view>
+
 <view class='_blank'></view>
 
 <view class='bottom'>

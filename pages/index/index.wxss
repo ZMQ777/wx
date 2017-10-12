@@ -77,3 +77,17 @@
 }
 
 
+ .footer_ingo image{
+  width: 100%;
+}
+
+ .phone_btn{
+  position: absolute;
+  bottom: -15%;
+  left: 45%;
+  z-index: 100;
+  width: 10rem;
+  height: 3rem;
+  background-color: red;
+  opacity: 0;
+} 

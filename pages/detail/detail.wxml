@@ -50,6 +50,11 @@
     </block>
   </swiper>
 </view>
+<view class='float_btn'>
+  <button class=''  open-type="contact">
+    <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/tb222.png'></image>
+  </button>
+</view>
 <view class='_blank'></view>
 <view class='bottom'>
   <navigator open-type="navigateBack" hover-class="none">
