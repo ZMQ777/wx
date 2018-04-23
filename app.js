@@ -1,4 +1,7 @@
   //app.js
+// const vconsole = require('static/vconsole.js')
+// const v = new vconsole()
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -6,10 +9,23 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
+    var _self = this
+
     // 登录 
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        var code = res.code; //返回code
+        wx.request({
+          url: 'https://app.cnyouhao.com/demo/pay.php?code=' + code + '&action=getOpenid',
+          header: {
+            'content-type': 'application/json'
+          },
+          success: function (res) {
+            _self.globalData.openid = res.data.openid;
+            // console.log(_self.globalData);
+          }
+        })
       }
     })
     // 获取用户信息
@@ -21,7 +37,8 @@ App({
             success: res => {
               // 可以将 res 发送给后台解码出 unionId
               this.globalData.userInfo = res.userInfo
-
+              console.log(res);
+              console.log(1);
               // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
               // 所以此处加入 callback 以防止这种情况
               if (this.userInfoReadyCallback) {
@@ -34,6 +51,8 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    openid:null
   }
+ 
 })

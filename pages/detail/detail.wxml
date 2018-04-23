@@ -60,8 +60,8 @@
   <navigator open-type="navigateBack" hover-class="none">
     <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/back.png' mode='widthFix'></image>返回
   </navigator>
-  <button open-type="contact">
+  <button bindtap="tapName" >
     <!-- <image src='http://odwbo6hwu.bkt.clouddn.com/webapp/icon/customer-service.png' mode='widthFix'></image> -->
-    咨询客服
+    立即下单
   </button>
 </view>

@@ -20,7 +20,7 @@ Page({
       }
       , {
         label: '4',
-        src: 'http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/bar_four.jpg',
+        src: 'http://odwbo6hwu.bkt.clouddn.com/1231231123123bar_four.jpg',
         url: '/pages/list/list?t=pifu'
       }, {
         label: '5',
@@ -51,6 +51,10 @@ Page({
     })
   },
   onLoad: function () {
+
+    
+
+
     // console.log(this.data.grids)
     if (app.globalData.userInfo) {
       this.setData({
@@ -112,6 +116,35 @@ Page({
     this.setData({
       text: "111"
     });
+  },
+  tapName: function (event) {
+    var openid = app.globalData.openid;
+    console.log(openid)
+    wx.request({
+      url: 'https://app.cnyouhao.com/demo/pay.php?action=order&openid='+openid,
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        console.log(res);
+        if (res.data == "" || res.data==null){
+          return;
+        }
+        wx.requestPayment(
+          {
+            'timeStamp': String(res.data.timeStamp),
+            'nonceStr': res.data.nonceStr,
+            'package': res.data.package,
+            'signType': res.data.signType,
+            'paySign': res.data.paySign,
+            'success': function (res) { 
+              console.log(res)
+            },
+            'fail': function (res) { console.log(res) },
+            'complete': function (res) { console.log(res) }
+          }) 
+      }
+    })
   },
   makePhoneCall:function(){
     wx.makePhoneCall({

@@ -1,9 +1,14 @@
+//index.js
+//获取应用实例
+const app = getApp()
+
 Page({
   data: {
     pageGoodInfo: null,
     pageHotGood: null,
     bannerIndicatorDots: true,
     hotIndicatorDots: true,
+    price:0,
     goods: {
       VISIApifujiance: {
         goodsBanner: [
@@ -784,5 +789,67 @@ Page({
   onShareAppMessage: function () {
 
 
+  },
+  tapName:function(){
+    console.log(this.data.pageGoodInfo);
+    var goodsName = this.data.pageGoodInfo.goodsName;//商品名称
+    var price = this.data.pageGoodInfo.price;         //价格
+    price = Number(price)
+    var openid = app.globalData.openid;               //openid
+    console.log('openid'+openid)
+    wx.request({
+      url: 'https://app.cnyouhao.com/demo/pay.php?action=order&desc=' + goodsName + '&money=' + price*100+'&openid=' + openid,
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        console.log(res);
+        if (res.data == "" || res.data==null){
+          return;
+        }
+        var timeStamp = res.data.timeStamp;
+        var order_no = res.data.order_no;
+        function json2Form(json) {
+          var str = [];
+          for (var p in json) {
+            str.push(encodeURIComponent(p) + "=" + encodeURIComponent(json[p]));
+          }
+          return str.join("&");
+        } 
+        console.log(timeStamp); 
+        wx.requestPayment(
+          {
+            'timeStamp': String(res.data.timeStamp),
+            'nonceStr': res.data.nonceStr,
+            'package': res.data.package,
+            'signType': res.data.signType,
+            'paySign': res.data.paySign,
+            'success': function (res) {
+              console.log(timeStamp);
+              wx.request({
+                url: 'https://app.cnyouhao.com/demo/pay.php',
+                header: {
+                  'content-type': 'application/x-www-form-urlencoded'
+                },
+                method: 'POST',
+                data: json2Form({
+                  action: 'saveOrder',
+                  money: price,
+                  openid: openid,
+                  project: goodsName,
+                  order_no: order_no
+                }),success(res){
+                  console.log(res)
+                }
+              })
+
+            },
+            'fail': function (res) { console.log(res) },
+            'complete': function (res) { console.log(res) }
+          })
+      
+      
+      }
+    })
   }
 })

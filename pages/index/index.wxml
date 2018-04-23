@@ -17,7 +17,9 @@
 </view>
 
 <view class='banner-div'>
+<navigator url="/pages/list/list?t=fuke" open-type="navigate">
   <image mode='widthFix' src='http://odwbo6hwu.bkt.clouddn.com/webapp/img/index/banner.jpg'></image>
+   </navigator>
 </view>
 <view class="bar_nav clearfix">
   <block wx:for="{{grids}}" wx:key="*this">
